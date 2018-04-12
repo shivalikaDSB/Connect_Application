@@ -77,21 +77,15 @@
                 android:id="@+id/d_myscore"
                 android:layout_width="380dp"
                 android:layout_height="180dp"
-                android:text="My Score"
+                android:text="Community"
                 android:textColor="#000"
+                android:contextClickable="true"
                 android:gravity="center_horizontal|center_vertical"
                 android:clickable="true"
-                android:onClick="myscore"
+                android:onClick="community"
                 tools:ignore="OnClick"
                 />
             </android.support.v7.widget.CardView>
-            <!--<ImageView-->
-            <!--android:id="@+id/d_icon_upcoming"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--app:layout_marginLeftPercent="6%"-->
-            <!--app:layout_marginTopPercent="30.5%"-->
-            <!--android:src="@drawable/icon_menu"/>-->
             <android.support.v7.widget.CardView
                 android:id="@+id/upcoming_event_card"
                 android:layout_width="380dp"

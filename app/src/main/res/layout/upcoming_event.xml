@@ -9,11 +9,13 @@
     tools:context=".UpcomingEventActivity">
 
 
+
     <android.support.percent.PercentRelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         xmlns:app="http://schemas.android.com/apk/res-auto">
+
 
 
         <TextView
@@ -44,4 +46,8 @@
 
     </android.support.percent.PercentRelativeLayout>
 
+
 </android.support.constraint.ConstraintLayout>
+
+
+

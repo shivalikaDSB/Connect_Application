@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.connect.dsb.communityFragment.Community;
+
 public class NavigationWallet extends Fragment {
 
     public NavigationWallet() {
@@ -50,7 +52,7 @@ public class NavigationWallet extends Fragment {
         a3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Fragment f = new MyScore();
+                Fragment f = new Community();
                 // here settings changed
                 android.support.v4.app.FragmentManager fm = getFragmentManager();
                 android.support.v4.app.FragmentTransaction ft = fm.beginTransaction();

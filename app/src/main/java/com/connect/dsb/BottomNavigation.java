@@ -6,25 +6,20 @@ import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
 import android.support.design.internal.BottomNavigationItemView;
 import android.support.design.internal.BottomNavigationMenuView;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Html;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.FrameLayout;
+import android.view.Window;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.connect.dsb.communityFragment.Community;
 
 import java.lang.reflect.Field;
-import java.util.HashMap;
-
-import static android.support.v4.app.FragmentTransaction.TRANSIT_FRAGMENT_CLOSE;
 
 public class  BottomNavigation extends AppCompatActivity {
 
@@ -155,8 +150,9 @@ public class  BottomNavigation extends AppCompatActivity {
     public void wallet(View view) {
         changeFragment(new WalletActivity());
     }
-    public void myscore(View view) {
-        changeFragment(new MyScore());
+    public void community(View view) {
+
+        changeFragment(new Community());
     }
     public void upcoming(View view) {
         changeFragment(new UpcomingEventActivity());

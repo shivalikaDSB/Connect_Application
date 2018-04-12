@@ -7,10 +7,6 @@
     android:background="#fff"
     android:layout_gravity="bottom">
 
-
-
-
-
     <TextView
         android:layout_width="30dp"
         android:layout_height="30dp"
@@ -67,7 +63,5 @@
             android:text="description"/>
 
     </LinearLayout>
-
-
 
 </LinearLayout>

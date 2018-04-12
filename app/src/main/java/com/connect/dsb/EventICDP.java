@@ -23,9 +23,6 @@ import java.util.List;
 
 
 public class EventICDP extends  Fragment {
-    Dialog mdialog;
-
-
     List<EventBean> eventlist;
 
     public EventICDP() {
@@ -40,10 +37,6 @@ public class EventICDP extends  Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-
-
-//        Glide.with(this).load("").
 
 
         // Inflate the layout for this fragment
