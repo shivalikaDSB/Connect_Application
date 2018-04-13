@@ -72,6 +72,7 @@ public class  BottomNavigation extends AppCompatActivity {
     @Override
     protected void onCreate( Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
+//        setTitle("gfhjhgg");
         setContentView(R.layout.bottom_navigation);
         // Session class instance
 
@@ -184,7 +185,6 @@ class BottomNavigationViewHelper {
             Log.e("BNVHelper", "Unable to change value of shift mode", e);
         }
     }
-
 
 }
 
