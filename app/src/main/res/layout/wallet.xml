@@ -9,22 +9,59 @@
     android:clickable="true"
     tools:context=".WalletActivity">
 
+    <!--<include-->
+        <!--layout="@layout/app_bar1"-->
+        <!--android:id="@+id/app_bar"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:text="Wallet"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#000"-->
+        <!--android:background="#a9a9a9"-->
+        <!--android:paddingTop="9dp"/>-->
+
+    <!--<include-->
+        <!--layout="@layout/app_bar1"-->
+        <!--android:id="@+id/app_bar"/>-->
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:background="#2d2d"-->
+        <!--app:popupTheme="@style/AppTheme.PopupOverlay">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/toolbar_title1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:text="Dasboard"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"-->
+            <!--android:layout_gravity="center" />-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+
     <android.support.percent.PercentRelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
         android:id="@+id/d_total_amount"
         app:layout_widthPercent="42%"
-        app:layout_heightPercent="7%"
+        app:layout_heightPercent="15%"
         android:text="Total Amount"
         android:textColor="#000"
-        app:layout_marginTopPercent="5%"
+        app:layout_marginTopPercent="21%"
         app:layout_marginLeftPercent="6%"/>
         <TextView
             android:id="@+id/d_amount_used"
             app:layout_widthPercent="42%"
-            app:layout_heightPercent="7%"
+            app:layout_heightPercent="15%"
             android:text="Amount Used"
             android:textColor="#000"
             app:layout_marginTopPercent="5%"

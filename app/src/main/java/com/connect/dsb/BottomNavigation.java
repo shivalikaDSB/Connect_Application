@@ -11,11 +11,13 @@ import android.support.design.internal.BottomNavigationMenuView;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.TextView;
+
 
 import com.connect.dsb.communityFragment.Community;
 
@@ -24,6 +26,7 @@ import java.lang.reflect.Field;
 public class  BottomNavigation extends AppCompatActivity {
 
     private TextView mTextMessage;
+    Toolbar toolbar;
 
     // Alert Dialog Manager
     AlertDialogManager alert = new AlertDialogManager();
@@ -74,6 +77,10 @@ public class  BottomNavigation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 //        setTitle("gfhjhgg");
         setContentView(R.layout.bottom_navigation);
+
+//        Toolbar toolbar=(Toolbar)findViewById(R.id.app_bar);
+//        setSupportActionBar(toolbar);
+
         // Session class instance
 
 //

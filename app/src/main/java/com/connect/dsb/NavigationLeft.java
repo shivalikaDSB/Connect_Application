@@ -18,12 +18,12 @@ public class NavigationLeft extends Fragment {
     public NavigationLeft() {
     }
 
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState){
-        super.onViewCreated(view, savedInstanceState);
-
-        getActivity().setTitle("Connect App");
-    }
+//    @Override
+//    public void onViewCreated(View view, Bundle savedInstanceState){
+//        super.onViewCreated(view, savedInstanceState);
+//
+//        getActivity().setTitle("Connect App");
+//    }
     @Override
     public View onCreateView( LayoutInflater inflater, ViewGroup container,
                               Bundle savedInstanceState ) {

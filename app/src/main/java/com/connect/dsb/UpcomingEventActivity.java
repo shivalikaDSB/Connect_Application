@@ -17,11 +17,11 @@ public class UpcomingEventActivity extends Fragment {
         // Required empty public constructor
     }
 
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        getActivity().setTitle("Upcoming Events");
-    }
+//    @Override
+//    public void onViewCreated(View view, Bundle savedInstanceState) {
+//        super.onViewCreated(view, savedInstanceState);
+//        getActivity().setTitle("Upcoming Events");
+//    }
 
 
     @Override

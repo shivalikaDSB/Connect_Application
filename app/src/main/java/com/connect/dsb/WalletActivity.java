@@ -14,11 +14,22 @@ public class WalletActivity extends Fragment {
         // Required empty public constructor
     }
 
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState){
-        super.onViewCreated(view, savedInstanceState);
-        getActivity().setTitle("Wallet");
-    }
+//    @Override
+//    public void onViewCreated(View view, Bundle savedInstanceState) {
+//        super.onViewCreated(view, savedInstanceState);
+//        getActivity().setTitle("Wallet");
+//    }
+
+//            ((AppCompatActivity)getActivity()).getSupportActionBar().hide();
+//
+//
+//        }
+//        @Override
+//        public void onStop() {
+//            super.onStop();
+//            ((AppCompatActivity)getActivity()).getSupportActionBar().show();
+//        }
+
 
     @Override
     public View onCreateView( LayoutInflater inflater, ViewGroup container,
