@@ -65,13 +65,18 @@
                     <!--layout="@layout/app_bar"-->
                     <!--android:id="@+id/app_bar"/>-->
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:text="Dashboard"
-                    android:textColor="#000"
-                    android:gravity="center"
-                    android:background="#FAFAFA"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:src="@drawable/logo_dsb_edutech"/>
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:text="Dashboard"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:gravity="center"-->
+                    <!--android:background="#FAFAFA"/>-->
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -89,6 +94,7 @@
                 android:layout_marginRight="20dp"
                 android:layout_centerHorizontal="true"
                 android:clickable="true"
+                app:cardBackgroundColor="#affcff"
                 android:foreground="?android:attr/selectableItemBackground">
             <TextView
                 android:id="@+id/d_wallet"
@@ -121,6 +127,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:clickable="true"
+                app:cardBackgroundColor="#6ce1e6"
                 android:foreground="?android:attr/selectableItemBackground">
             <TextView
                 android:id="@+id/d_myscore"
@@ -146,6 +153,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:clickable="true"
+                app:cardBackgroundColor="#25bbc1"
                 android:foreground="?android:attr/selectableItemBackground">
             <TextView
                 android:id="@+id/d_upcoming"
