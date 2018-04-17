@@ -91,28 +91,20 @@ public class Login extends AppCompatActivity implements Animation.AnimationListe
     private ImageView imgProfilePic;
     private TextView txtName, txtEmail;
 
-    private ImageView mFbLogoImageView;
-    private ImageView mFbCoverImageView;
-    private EditText mEmailEditText;
-    private EditText mPswEditText;
+    private ImageView mFbLogoImageView,
+            mFbCoverImageView,mFbLogoStaticImageView,mlogin_button1,micon_twitt,
+            mbtn_sign_in,micon_linked;
+
+    private EditText mEmailEditText,mPswEditText;
+
     //    private TextView mLangTextView;
-    private TextView mForgotPswTextView;
+
     private Button mLoginButton;
     //    private Button mNewAccountButton;
-    private TextView mNewAccountButton;
-    private ImageView mFbLogoStaticImageView;
-    private View mView;
-    private View mView1;
-    private View mView2;
-    private TextView mtextOr;
-    private ImageView mlogin_button1;
-    private ImageView mbtn_sign_in;
-   private ImageView micon_linked;
-   private TextView msignup;
-    private TextView mtextConnect;
-    private ImageView micon_twitt;
 
+    private View mView,mView1,mView2;
 
+    private TextView mtextOr,msignup,mtextConnect,mNewAccountButton,mForgotPswTextView;
 
 
     private Boolean ANIMATION_ENDED = false;
@@ -431,7 +423,6 @@ public class Login extends AppCompatActivity implements Animation.AnimationListe
         super.onSaveInstanceState(outState);
         outState.putBoolean("START_ANIMATION", false);
     }
-
 
     public void login(View view) {
         Intent i = new Intent(this, BottomNavigation.class);
